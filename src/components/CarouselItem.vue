@@ -25,3 +25,13 @@ export default {
   },
 };
 </script>
+<style>
+.card-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-text {
+  margin-bottom: 0;
+}
+</style>

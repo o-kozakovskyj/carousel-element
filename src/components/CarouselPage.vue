@@ -18,7 +18,7 @@
             v-for="favorites in favoriteList"
             :key="favorites.id"
           >
-            <FavoritesItem
+            <favorites-item
               :favorites="favorites"
               @removeFromFavoriteList="changeFavoriteStatus"
             />
